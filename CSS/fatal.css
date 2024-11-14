@@ -429,7 +429,7 @@ a {
   
   .range input::-webkit-slider-thumb {
     box-sizing: border-box;
-    box-shadow: 0px 4px 25px rgba(0, 0, 0, .5);
+    box-shadow: 0px 4px 25px rgb(0, 0, 0);
     border: 6px solid #fff;
     height: 24px;
     width: 24px;
