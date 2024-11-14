@@ -89,7 +89,7 @@ nav a {
     font-size: 2rem;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 nav form {
