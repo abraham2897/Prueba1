@@ -519,7 +519,7 @@ a {
   
   .audio-player .volumeControl .outer {
     border-radius: 2px;
-    box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.23);
+    box-shadow: -2px 3px 4px rgb(255, 255, 255);
     overflow: hidden;
     height: 0.3rem;
     flex-basis: 80%;
