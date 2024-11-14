@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Fatal-Crash</title>
+   <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Poiret+One&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" type="text/css" href="CSS/fatal.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Trade+Winds&display=swap"
+      rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Trade+Winds&display=swap"
+      rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Rubik+Vinyl&family=Trade+Winds&display=swap"
+      rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Notable&family=Rubik+Glitch&family=Rubik+Vinyl&family=Stalinist+One&family=Trade+Winds&display=swap"
+      rel="stylesheet">
+   <link rel="shortcut icon" href="Imagenes/fatalprueba.ico" />
+   <style type="text/css">
+      .rubik-glitch-regular {
+         font-family: "Rubik Glitch", system-ui;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 80px;
+         color: rgb(252, 252, 252);
+         text-align-last: center;
+      }
+
+      .rubik-glitch-regular-02 {
+         font-family: "Rubik Glitch", system-ui;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 20px;
+         color: rgb(252, 252, 252);
+         text-align-last: left;
+      }
+
+      .stalinist-one-regular {
+         font-family: "Stalinist One", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 10px;
+         color: aliceblue;
+      }
+
+      .fondo {
+         background-image: url("Imagenes/back02.jpg");
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+      }
+   </style>
+</head>
+
+<body class="fondo">
+
+   <header>
+      <section class="wrapper">
+         <!-- <p class="rubik-glitch-regular">
+            Fatal<img src="Imagenes/fatalprueba.ico" width="250" height="100">Crash
+         </p> -->
+         <div>
+            <p class="rubik-glitch-regular">
+               Fatal<img src="Imagenes/fatalprueba.ico" width="150" height="90">Crash
+         </div>
+         <nav>
+            <ul>
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#Integrantes">Integrantes</a></li>
+               <li><a href="#Galeria">Galeria</a></li>
+               <li><a href="#Eventos">Eventos</a></li>
+               <li><a href="#Material">Material</a></li>
+               <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+         </nav>
+      </section>
+   </header>
+   <section class="contenido wrapper">
+      <div id="#" class="contenedor max">
+         <h1 class="rubik-glitch-regular-02">HISTORIA</h1>
+         <code> <p>Vivamus leo neque, luctus ac dignissim non, vehicula ut diam. Morbi eu urna interdum, cursus tortor quis, aliquam quam. Aliquam quis tellus ante. Morbi aliquet quam sem, et molestie
+         <br> dolor aliquet sed. Vivamus vehicula turpis nunc, ut hendrerit ante pulvinar eu. Pellentesque consectetur risus sit amet nulla sagittis, sit amet condimentum nisl tristique. Aliquam sit amet arcu eget risus dapibus fringilla vitae quis nunc. Cras commodo laoreet nulla ac rutrum. Fusce quam felis, malesuada ut condimentum eu, vulputate sed justo. Duis ac rhoncus neque.</p></code>
+      </div>
+      <div class="imagenes min max">
+         <h1 class="rubik-glitch-regular-02" id="Integrantes">INTEGRANTES</h1>
+      </div>
+      <div class="imagenes min max">
+         <h1 class="rubik-glitch-regular-02" id="Eventos">EVENTOS</h1>
+      </div>
+      <!--Rerpductor de Música-->
+      <h1 class="rubik-glitch-regular-02" id="Material">MATERIAL</h1>
+      <div class="audio-player" id="skin">
+
+         <div class="user_avatar">
+            <br />
+            <img src="assets/avatar.png">
+            <nav class="set">
+               <a class="dropdown-toggle"  title="Menu"><i class="fa fa-cogs"></i></a>
+               <ul class="dropdown">
+                  <li><a  id="darkButton">Tema Oscuro</a></li>
+                  <li><a  id="whiteButton">Por Defecto</a></li>
+                  <li><a  id="blueButton">Morado</a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="holder">
+            <div class="cover">
+
+               <img src="./assets/cover.PNG">
+            </div>
+            <div class="audio-wrapper" id="player-container" href="javascript:;">
+               <audio id="player" preload="metadata" onloadedmetadata="mDur()" ontimeupdate="initProgressBar()">
+                  <source src="" type="audio/mp3">
+               </audio>
+            </div>
+            <div class="player-controls scrubber">
+               <div>
+                  <div>
+                     <p class="title"></p>
+                  </div>
+                  <div class="range">
+                     <input id="dur" type="range" class="range" name="rng" min="0" max="1" step="0.00000001" value="0"
+                        onchange="mSet()" style="width: 100%">
+                  </div>
+                  <br>
+                  <span class="time start-time"></span>
+                  <span class="time end-time"></span>
+                  <br>
+                  <div class="ctrl">
+                     <div>
+                        <a href="#prev" class="ctrl_btn " id="prev"><i class="fa fa-arrow-left"></i></a>
+                        <span id="play-btn" class="fa fa-play "></span>
+                        <a href="#next" class="ctrl_btn " id="next"><i class="fa fa-arrow-right"></i></a>
+                     </div>
+                     <div class="volumeControl">
+                        <div class="wrapper">
+                           <i class="fa fa-volume-up"></i>
+                           <span class="outer">
+                              <span class="inner"></span>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div>
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+
+      <script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+      <script type="text/javascript" src="JS/script.js"></script>
+
+      <!--Reproductor de Música-->
+   </section>
+</body>
+
+</html>
