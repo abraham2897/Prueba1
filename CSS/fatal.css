@@ -284,8 +284,8 @@ a {
   }
   
   .audio-player .cover img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
     border-radius: 30px;
     padding: 10px;
@@ -593,7 +593,7 @@ a {
     }
     .audio-player .cover img {
       height: 100%;
-      width: 100%;
+      width: 80%;
       object-fit: cover;
       display: block;
       margin: 0 auto;
