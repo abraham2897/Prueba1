@@ -465,12 +465,12 @@ a {
   
   .range .rangeslider-thumb {
     box-sizing: border-box;
-    box-shadow: 0px 4px 25px rgba(0, 0, 0, .5);
+    box-shadow: 0px 4px 25px rgb(255, 255, 255);
     border: 6px solid #fff;
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    background: #333940;
+    background: #ffffff;
     cursor: pointer;
     position: absolute;
     touch-action: pan-x;
@@ -482,7 +482,7 @@ a {
   .audio-player #play-btn,
   .ctrl_btn {
     margin: 0 1rem 2rem 0;
-    color: #363732;
+    color: #ffffff;
   }
   
   .audio-player #play-btn {
