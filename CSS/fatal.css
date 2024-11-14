@@ -343,6 +343,7 @@ a {
     height: 22px;
     cursor: pointer;
     display: block;
+    border-radius: 10px;
   }
   
   .range input[type=range]:focus {
