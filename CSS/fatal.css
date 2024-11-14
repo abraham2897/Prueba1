@@ -510,11 +510,11 @@ a {
     display: flex;
     flex-basis: 100%;
     align-items: center;
-    color: #363732;
+    color: #ffffff;
   }
   
   .audio-player .volumeControl .wrapper:hover i.fa {
-    color: #363732;
+    color: #ffffff;
   }
   
   .audio-player .volumeControl .outer {
@@ -530,7 +530,7 @@ a {
   }
   
   .audio-player .volumeControl .outer .inner {
-    background-color: #363732;
+    background-color: #ffffff;
     width: 100%;
     display: inline-block;
     height: 100%;
