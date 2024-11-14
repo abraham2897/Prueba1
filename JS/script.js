@@ -7,6 +7,9 @@ let playlist = [ {
   }, {
     'title': 'Losing My Mind - NEFFEX',
     'audio': "assets/Losing My Mind - NEFFEX.mp3",
+  },{
+    'title': 'Savage Rock and Roll - Ragnarock',
+    'audio': "assets/Savage Rock and Roll - Ragnarock.mp3",
   } ];
   i = 0;
   n = playlist.length;
