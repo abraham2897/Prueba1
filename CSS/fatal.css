@@ -266,7 +266,7 @@ a {
     }
   }
   
-  .audio-player .user_avatar img {
+  .audio-player .user_avatar img { /*Imagen Superior*/
     display: block;
     margin: 0 auto;
     height: 100px;
@@ -275,7 +275,7 @@ a {
     object-fit: cover;
     border-radius: 50%;
     border: 0px solid #dfdfdf;
-    background: #fff;
+    background:transparent;
     margin-top: -4em;
   }
   
