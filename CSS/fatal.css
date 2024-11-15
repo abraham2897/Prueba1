@@ -208,7 +208,7 @@ a {
     width: 100%;
     justify-content: space-around;
     margin: 0 auto;
-    position: relative;
+    /*position: relative;*/
   }
   
   .audio-player .user_avatar .live,
