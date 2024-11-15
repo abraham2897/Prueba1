@@ -293,11 +293,12 @@ a {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
   }
   
-  .audio-player .title { /*Titulo de la Cancion*/
+  .audio-player .title p { /*Titulo de la Cancion*/
     padding: 0;
     margin-top: 2.5rem;
     font-weight: 800;
     font-size: 15px;
+    color: #e6e6e6;
   }
   
   .audio-player .like {
@@ -320,7 +321,7 @@ a {
     margin: 0 auto;
   }
   
-  .audio-player .player-controls p {
+  .audio-player .player-controls{
     color: transparent;
   }
   
