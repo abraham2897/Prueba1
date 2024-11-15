@@ -316,7 +316,7 @@ a {
     align-items: center;
     justify-content: center;
     flex: 4;
-    position: relative;
+    /*position: relative;*/
     padding: 0 1rem;
     margin: 0 auto;
   }
