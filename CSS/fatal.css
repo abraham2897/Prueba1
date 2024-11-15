@@ -321,7 +321,7 @@ a {
   }
   
   .audio-player .player-controls p {
-    color: #ffffff;
+    color: transparent;
   }
   
   .progress_bar {
@@ -337,8 +337,8 @@ a {
     position: relative;
   }
   
-  .range input[type=range] {
-    appearance: none;
+  .range input[type=range] {/*Controles de la Barra*/
+    /*appearance: none;*/
     padding: 0;
     width: 100%;
     height: 22px;
