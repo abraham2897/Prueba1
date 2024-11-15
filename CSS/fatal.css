@@ -47,6 +47,7 @@ p {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    height: 200%;
 }
 
 header {
