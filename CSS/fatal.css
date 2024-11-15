@@ -193,11 +193,11 @@ a {
     display: block;
   }
   
-  .audio-player {
+  .audio-player { /* Margen donde se encuentra el reproductor*/
     position: relative;
     border: 0px solid #dfdfdf;
     width: 50vw;
-    margin: 1rem auto;
+    /*margin: 1rem auto;*/
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.32);
     /*background: #fff;*/
     padding: 1rem;
