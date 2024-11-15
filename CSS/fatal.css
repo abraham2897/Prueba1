@@ -334,8 +334,8 @@ a {
     align-items: center;
   }
   
-  .range {
-    position: relative;
+  .range { /*Barra de reproduccion*/
+    /*position: relative;*/
   }
   
   .range input[type=range] {/*Controles de la Barra*/
