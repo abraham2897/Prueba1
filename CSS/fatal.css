@@ -472,7 +472,7 @@ a {
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    background: #ffffff;
+    background:transparent;
     cursor: pointer;
     position: absolute;
     touch-action: pan-x;
