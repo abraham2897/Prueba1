@@ -97,7 +97,7 @@ nav ul li:hover {
 }
 
 .max {
-    width: max-content;
+    width: auto;
 }
 
 .imagenes {
