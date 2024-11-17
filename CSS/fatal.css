@@ -96,9 +96,9 @@ nav ul li:hover {
     margin: 1rem 0;
 }
 
-.max {
+/*.max { Max dudoso
     width: auto;
-}
+}*/
 
 .imagenes {
     color: white;
@@ -107,7 +107,7 @@ nav ul li:hover {
 }
 
 .max {
-    width: max-content;
+    width: auto;
 }
 
 .min {
