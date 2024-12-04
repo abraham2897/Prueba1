@@ -60,6 +60,7 @@ header {
 nav {
     float: right;
     /* Desplazamos el nav hacia la izquierda */
+    background-color: sienna;
 }
 
 nav ul {
