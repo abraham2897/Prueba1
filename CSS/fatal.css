@@ -54,7 +54,7 @@ header {
     background: rgba(248, 8, 8, 0.9);
     width: 100%;
     position: fixed;
-    z-index: 50%;
+    z-index: 20%;
 }
 
 nav {
