@@ -58,7 +58,7 @@ header {
 }
 
 nav {
-    float: left; 
+    float: right; 
     /* Desplazamos el nav hacia la izquierda */
     background-color: transparent
 }
