@@ -51,7 +51,7 @@ p {
 }
 
 header {
-    background: rgba(248, 8, 8, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     width: 100%;
     position: fixed;
     z-index: 20%;
