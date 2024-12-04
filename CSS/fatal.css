@@ -60,7 +60,7 @@ header {
 nav {
     float: right;
     /* Desplazamos el nav hacia la izquierda */
-    background-color: rgb(241, 100, 100);
+    background-color: transparent
 }
 
 nav ul {
