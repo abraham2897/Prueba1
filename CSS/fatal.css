@@ -51,7 +51,7 @@ p {
 }
 
 header {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(248, 8, 8, 0.9);
     width: 100%;
     position: fixed;
     z-index: 100%;
@@ -60,7 +60,7 @@ header {
 nav {
     float: right;
     /* Desplazamos el nav hacia la izquierda */
-    background-color: sienna;
+    background-color: rgb(241, 100, 100);
 }
 
 nav ul {
