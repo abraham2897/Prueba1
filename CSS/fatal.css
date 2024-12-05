@@ -97,6 +97,12 @@ nav ul li:hover {
     height: 350px;
     margin: 1rem 0;
 }
+.contenedordos {
+  color: white;
+  height: 350px;
+  margin: 1rem 0;
+  position: fixed;
+}
 
 /*.max { Max dudoso
     width: auto;
