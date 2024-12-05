@@ -199,8 +199,8 @@ a {
     /*position: relative;*/
     border: 0px solid #dfdfdf;
     width: 40vw;
-    /*margin: 1rem auto;*/
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.32);
+    margin: 1rem auto;
+    /*box-shadow: 0 10px 30px rgba(0, 0, 0, 0.32);*/
     /*background: #fff;*/
     padding: 1rem;
     height: auto;
