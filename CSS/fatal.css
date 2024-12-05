@@ -101,7 +101,6 @@ nav ul li:hover {
   color: white;
   height: 350px;
   margin: 1rem 0;
-  position: fixed;
 }
 
 /*.max { Max dudoso
@@ -661,14 +660,18 @@ a {
       display: none;
     }
   
-    .footer {
-      /*position: fixed;*/
+    /*.footer {
+      position: fixed;
       left: 0;
       bottom: 0;
       width: 100%;
       background-color: #1984bc;
       color: white;
       text-align: center;
+    }*/
+    .footer {
+      height: 4rem;
+      background-color: #e2e2e2
     }
   }
   
