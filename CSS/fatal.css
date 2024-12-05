@@ -109,7 +109,11 @@ nav ul li:hover {
 }
 
 .max {
-    width: auto;
+  width: auto;
+}
+.maxdos {
+  width: auto;
+  position: fixed;
 }
 
 .min {
