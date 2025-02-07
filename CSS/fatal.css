@@ -48,6 +48,8 @@ p {
   margin: auto;
   overflow: hidden;
   height: 100%;
+  mask-image: linear-gradient(black 70%, transparent);
+  -webkit-mask-image: linear-gradient(black 70%, transparent);
 }
 
 header {
